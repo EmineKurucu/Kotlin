@@ -1,1 +1,30 @@
 /build
+# Kotlin/Java ve Android Studio için genel kurallar
+*.iml
+.gradle/
+.idea/
+build/
+captures/
+.externalNativeBuild/
+
+# İşletim sistemine özgü dosyalar
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Yedekleme dosyaları
+*.bak
+*.tmp
+
+# Çıkış dosyaları
+*.apk
+*.ap_
+*.keystore
+
+# Kişisel yapılandırmalar
+local.properties
+# Sadece kaynak kodları dahil et
+/*
+!/app/src/main/java
