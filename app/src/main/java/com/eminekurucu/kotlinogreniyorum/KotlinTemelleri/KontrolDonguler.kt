@@ -57,7 +57,7 @@ fun main(){
     println("------")
 
     // When Kontrolleri
-    println("---Whe---")
+    println("---When---")
     // when ile yapılanlar if else ile de yapılabilir
     // çok fazla içiçe if else istemezsen when kullan
 
